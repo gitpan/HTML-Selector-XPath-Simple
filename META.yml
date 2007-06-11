@@ -1,0 +1,24 @@
+---
+name: HTML-Selector-XPath-Simple
+version: v0.0.1
+author:
+  - 'Takeru INOUE <takeru.inoue@gmail.com>'
+abstract: Simple CSS Selector to XPath compiler
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  HTML::Selector::XPath: 0
+  HTML::TreeBuilder::XPath: 0
+  Test::More: 0
+  Test::NoWarnings: 0
+  Test::Perl::Critic: 0
+  version: 0
+provides:
+  HTML::Selector::XPath::Simple:
+    file: lib/HTML/Selector/XPath/Simple.pm
+    version: v0.0.1
+generated_by: Module::Build version 0.2806
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2

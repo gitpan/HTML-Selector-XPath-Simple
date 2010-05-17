@@ -16,11 +16,11 @@ name: HTML-Selector-XPath-Simple
 provides:
   HTML::Selector::XPath::Simple:
     file: lib/HTML/Selector/XPath/Simple.pm
-    version: v0.0.2
+    version: v0.0.3
 requires:
   HTML::Selector::XPath: 0
   HTML::TreeBuilder::XPath: 0
   version: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: v0.0.2
+version: v0.0.3
